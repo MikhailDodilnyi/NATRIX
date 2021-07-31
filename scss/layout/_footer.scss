@@ -1,0 +1,33 @@
+.footer {
+    // border-top: 1px solid #000;
+
+    &_box {
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+        // color: #fff;
+        color: #000;
+    }
+
+    &_link {
+        margin-right: 20px;
+        text-decoration: none;
+        // color: #fff;
+        color: #000;
+        cursor: pointer;
+        transition: color .3s ease-in-out;
+        margin-bottom: 20px;
+
+        &:hover {
+            color: rgb(131, 101, 27);
+        }
+    }
+    
+}
+
+// .phone {
+//     display: flex;
+// font-family: 'Acme', sans-serif;
+
+// }
+
